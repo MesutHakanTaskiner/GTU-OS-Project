@@ -2,7 +2,7 @@
 
 **Public website URL: PENDING OWNER-AUTHENTICATED STREAMLIT COMMUNITY CLOUD DEPLOYMENT**
 
-Deployment action required: push the production commit to the configured GitHub repository, create a Community Cloud app from `main/app.py`, make it public, and verify Workload A/FCFS and Workload B/RR q=2 in a private browser session. No URL is fabricated in this report.
+GitHub push status: completed successfully to the configured repository's `main` branch. Remaining owner action: create a Community Cloud app from `main/app.py`, make it public, and verify Workload A/FCFS and Workload B/RR q=2 in a private browser session. No URL is fabricated in this report.
 
 Prepared: 24 October 2026  
 Implementation: Python 3.11, Streamlit, Plotly  
@@ -266,9 +266,9 @@ One AI-produced test initially used the wrong relative path for Streamlit's `App
 
 Create a Python 3.11 virtual environment, install `requirements-dev.txt`, run `python -m pytest -q`, then run `streamlit run app.py`. The production runtime uses only the pinned packages in `requirements.txt`.
 
-For Community Cloud, authenticate at `share.streamlit.io`, choose repository `MesutHakanTaskiner/GTU-OS-Project`, branch `main`, and entrypoint `app.py`; select Python 3.11 and deploy without secrets. Make the app public, open its assigned `.streamlit.app` URL in a private window, and verify Workload A/FCFS plus Workload B/RR q=2. Record that real URL on page 1 only after verification.
+The production source was successfully pushed to the configured GitHub repository's `main` branch. For Community Cloud, authenticate at `share.streamlit.io`, choose repository `MesutHakanTaskiner/GTU-OS-Project`, branch `main`, and entrypoint `app.py`; select Python 3.11 and deploy without secrets. Make the app public, open its assigned `.streamlit.app` URL in a private window, and verify Workload A/FCFS plus Workload B/RR q=2. Record that real URL on page 1 only after verification.
 
 ## 11. Limitations and final status
 
-The simulation intentionally excludes I/O bursts, multicore behavior, nonzero context-switch cost, priorities, and the Linux Completely Fair Scheduler. It is a policy simulator, not a kernel emulator. Public deployment remains dependent on authenticated owner action; therefore the website URL is correctly marked pending rather than invented. The authoritative professor PDF must also be compared once supplied.
+The simulation intentionally excludes I/O bursts, multicore behavior, nonzero context-switch cost, priorities, and the Linux Completely Fair Scheduler. It is a policy simulator, not a kernel emulator. GitHub push is complete, but public Streamlit deployment remains dependent on authenticated owner action; therefore the website URL is correctly marked pending rather than invented. The authoritative professor PDF must also be compared once supplied.
 

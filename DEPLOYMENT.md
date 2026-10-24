@@ -4,17 +4,19 @@
 
 - **Git remote:** `https://github.com/MesutHakanTaskiner/GTU-OS-Project.git`
 - **Expected branch:** `main`
+- **GitHub push:** completed successfully; local `main` tracks `origin/main`
+- **Anonymous repository check:** returned HTTP 404, so the repository is not publicly readable at verification time
 - **Entrypoint:** `app.py`
 - **Runtime dependency file:** `requirements.txt`
 - **Verified Python:** 3.11.0
 - **Local Streamlit health check:** passed (`HTTP 200`, body `ok`)
 - **Public Streamlit URL:** **PENDING - no URL is claimed until the deployed site is visited and tested**
 
-The project needs no secrets, database, external API, or Debian package. The remaining Community Cloud action requires the repository owner to be authenticated with GitHub and Streamlit.
+The project needs no secrets, database, external API, or Debian package. The remaining Community Cloud action requires the repository owner to be authenticated with GitHub and Streamlit. A private GitHub repository may still back a public Streamlit app, but the app's sharing setting must be checked explicitly.
 
 ## Owner deployment steps
 
-1. Confirm that the production commit is visible on the GitHub repository's `main` branch.
+1. Sign in to GitHub and confirm that the production commit is visible on the repository's `main` branch.
 2. Sign in at [share.streamlit.io](https://share.streamlit.io/) using the GitHub account that can access the repository.
 3. Click **Create app** and then **Yup, I have an app**.
 4. Enter:
