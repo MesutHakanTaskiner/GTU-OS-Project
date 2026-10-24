@@ -36,7 +36,7 @@ The project needs no secrets, database, external API, or Debian package. The rem
 
 ```text
 python -m pytest -q
-61 passed in 1.48s
+61 passed in 1.36s
 
 streamlit run app.py --server.headless true --server.port 8501
 GET /_stcore/health -> HTTP 200, ok

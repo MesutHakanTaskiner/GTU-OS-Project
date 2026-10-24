@@ -60,7 +60,7 @@ python -m pytest -q
 Verified locally on 24 October 2026 with Python 3.11.0:
 
 ```text
-61 passed in 1.48s
+61 passed in 1.36s
 ```
 
 The suite contains independent expected timelines and metrics, strict validation checks, an application smoke test, and these invariants:

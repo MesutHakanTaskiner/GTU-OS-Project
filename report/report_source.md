@@ -241,7 +241,7 @@ Commands and actual results on Python 3.11.0:
 
 ```text
 python -m pytest -q
-61 passed in 1.48s
+61 passed in 1.36s
 
 streamlit run app.py --server.headless true --server.port 8501
 GET /_stcore/health -> HTTP 200, ok
