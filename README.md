@@ -106,7 +106,11 @@ result = simulate(processes, "SRTF")
 
 ## Deployment
 
-The repository is prepared for Streamlit Community Cloud with root-level `app.py` and pinned runtime dependencies in `requirements.txt`. See [DEPLOYMENT.md](DEPLOYMENT.md) for the verified status and the exact owner-facing deployment path.
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gtu-os-project.streamlit.app/)
+
+Public app: [https://gtu-os-project.streamlit.app/](https://gtu-os-project.streamlit.app/)
+
+The deployed URL returned HTTP 200 without authentication on 25 October 2026. The repository uses root-level `app.py` and pinned runtime dependencies in `requirements.txt`. See [DEPLOYMENT.md](DEPLOYMENT.md) for the verification record and remaining private-browser checks.
 
 Official references:
 

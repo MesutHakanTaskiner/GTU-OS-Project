@@ -1,8 +1,8 @@
 # CSE513 Assignment 1 - CPU Scheduling Simulator
 
-**Public website URL: PENDING OWNER-AUTHENTICATED STREAMLIT COMMUNITY CLOUD DEPLOYMENT**
+**Public website URL: [https://gtu-os-project.streamlit.app/](https://gtu-os-project.streamlit.app/)**
 
-The source code has been pushed to the repository. The public Streamlit deployment is still pending. This draft must be updated with the tested public address before submission.
+The public URL returned HTTP 200 without authentication on 25 October 2026. A final interactive check in a private browser is still recommended before submission.
 
 Prepared: 25 October 2026
 
@@ -334,9 +334,9 @@ One suggested UI test used `AppTest.from_file("app.py")`. The test failed becaus
 
 Create a Python 3.11 virtual environment, install `requirements-dev.txt`, run `python -m pytest -q`, then run `streamlit run app.py`. The production runtime uses only the pinned packages in `requirements.txt`.
 
-The source is available on the configured GitHub repository's `main` branch. The remaining submission step is to deploy `app.py` on Streamlit Community Cloud, make the app public, and test the link without signing in. The verified address must then replace the pending notice on page 1.
+The source is available on the configured GitHub repository's `main` branch, and the app is deployed at [https://gtu-os-project.streamlit.app/](https://gtu-os-project.streamlit.app/). An unauthenticated HTTP request returned status 200 on 25 October 2026. Before submission, the two required public-site checks should also be run manually in a private browser: Workload A/FCFS and Workload B/RR q=2.
 
 ## 11. Limitations and final status
 
-The simulation intentionally excludes I/O bursts, multicore behavior, nonzero context-switch cost, priorities, and the Linux Completely Fair Scheduler. It is a policy simulator, not a kernel emulator. The authoritative professor PDF has been reviewed with no conflicting requirement found. GitHub push is complete, but public Streamlit deployment remains dependent on authenticated owner action; therefore the website URL is correctly marked pending rather than invented.
+The simulation intentionally excludes I/O bursts, multicore behavior, nonzero context-switch cost, priorities, and the Linux Completely Fair Scheduler. It is a policy simulator, not a kernel emulator. The authoritative professor PDF has been reviewed with no conflicting requirement found. The source is on GitHub and the public Streamlit address is included on page 1. The remaining precaution is a final interactive private-browser check of the two required workloads.
 
