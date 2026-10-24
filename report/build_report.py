@@ -184,8 +184,7 @@ def build_story(source: str):
             while index < len(lines) and lines[index].strip().startswith("|"):
                 table_lines.append(lines[index])
                 index += 1
-            story.append(markdown_table(table_lines))
-            story.append(Spacer(1, 7))
+            story.append(KeepTogether([markdown_table(table_lines), Spacer(1, 7)]))
             continue
         if stripped.startswith("# "):
             flush_paragraph()

@@ -18,7 +18,7 @@ The model contains exactly one CPU, one CPU burst per process, no I/O, and zero-
 
 This simulator models scheduling policies. It does **not** reproduce the actual Ubuntu scheduler.
 
-The professor's file `CSE513-Assignment-1.pdf` was not present in the repository during development. The supplied `AGENTS.md` requirements were therefore used as the working specification; the original PDF must be added and checked before academic submission.
+The professor's four-page `CSE513-Assignment-1.pdf` was reviewed in full after implementation. Its algorithm rules, website requirements, required workloads, student-designed tests, analysis questions, AI disclosure, and submission instructions match the working `AGENTS.md` specification. No discrepancy requiring a code or calculation change was found.
 
 ## 2. Algorithms and deterministic tie rules
 
@@ -270,5 +270,5 @@ The production source was successfully pushed to the configured GitHub repositor
 
 ## 11. Limitations and final status
 
-The simulation intentionally excludes I/O bursts, multicore behavior, nonzero context-switch cost, priorities, and the Linux Completely Fair Scheduler. It is a policy simulator, not a kernel emulator. GitHub push is complete, but public Streamlit deployment remains dependent on authenticated owner action; therefore the website URL is correctly marked pending rather than invented. The authoritative professor PDF must also be compared once supplied.
+The simulation intentionally excludes I/O bursts, multicore behavior, nonzero context-switch cost, priorities, and the Linux Completely Fair Scheduler. It is a policy simulator, not a kernel emulator. The authoritative professor PDF has been reviewed with no conflicting requirement found. GitHub push is complete, but public Streamlit deployment remains dependent on authenticated owner action; therefore the website URL is correctly marked pending rather than invented.
 

@@ -120,5 +120,5 @@ Official references:
 - `deliverables/cpu-scheduling-simulator-source.zip`
 - `report/report_source.md` (editable report content)
 
-The authoritative assignment PDF was not present in the repository during implementation. The project therefore follows the supplied `AGENTS.md` requirement set; add the professor PDF before final submission and compare it against the checklist.
+The authoritative `CSE513-Assignment-1.pdf` was reviewed in full after implementation. Its four pages match the implemented algorithm rules, website requirements, required workloads, test obligations, analysis questions, AI disclosure, and submission format; no conflict with the working `AGENTS.md` specification was found.
 
