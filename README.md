@@ -119,6 +119,8 @@ Official references:
 - `deliverables/CSE513_Assignment1_Report.pdf`
 - `deliverables/cpu-scheduling-simulator-source.zip`
 - `report/report_source.md` (editable report content)
+- `report/HAND_CALCULATIONS_GUIDE.md` (copy-ready independent calculation steps)
+- `REQUIREMENTS_AUDIT.md` (evidence-based completion and remaining-work checklist)
 
 The authoritative `CSE513-Assignment-1.pdf` was reviewed in full after implementation. Its four pages match the implemented algorithm rules, website requirements, required workloads, test obligations, analysis questions, AI disclosure, and submission format; no conflict with the working `AGENTS.md` specification was found.
 

@@ -82,12 +82,6 @@ class HeaderFooterCanvas(canvas.Canvas):
         self.saveState()
         width, height = A4
         page_number = self.getPageNumber()
-        if page_number > 1:
-            self.setFont("Helvetica", 8)
-            self.setFillColor(colors.HexColor("#64748B"))
-            self.drawString(18 * mm, height - 11 * mm, "CSE513 Assignment 1 · CPU Scheduling Simulator")
-            self.setStrokeColor(colors.HexColor("#CBD5E1"))
-            self.line(18 * mm, height - 13 * mm, width - 18 * mm, height - 13 * mm)
         self.setFont("Helvetica", 8)
         self.setFillColor(colors.HexColor("#64748B"))
         self.drawRightString(width - 18 * mm, 10 * mm, f"Page {page_number}")
