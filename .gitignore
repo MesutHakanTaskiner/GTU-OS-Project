@@ -12,3 +12,10 @@ htmlcov/
 tmp/
 *.log
 
+# Local assignment and development notes (not part of the public submission)
+AGENTS.md
+CSE513-Assignment-1.pdf
+CSE513_ASSIGNMENT_REQUIREMENTS.md
+REQUIREMENTS_AUDIT.md
+report/HAND_CALCULATIONS_GUIDE.md
+
