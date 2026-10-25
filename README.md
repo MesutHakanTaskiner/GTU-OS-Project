@@ -57,10 +57,10 @@ Open `http://localhost:8501`, load a preset or edit the table, select a policy, 
 python -m pytest -q
 ```
 
-Verified locally on 24 October 2026 with Python 3.11.0:
+Verified locally on 25 October 2026 with Python 3.11.0:
 
 ```text
-61 passed in 1.36s
+61 passed in 1.40s
 ```
 
 The suite contains independent expected timelines and metrics, strict validation checks, an application smoke test, and these invariants:
@@ -79,8 +79,8 @@ scheduler/                Pure models, policies, metrics, validation, verificati
 visualization/gantt.py    Interactive Plotly timeline
 workloads/examples.py     Required and targeted workload presets
 tests/                    Independent oracle, regression, validation, invariant, UI tests
-report/                   Editable report source and PDF build script
-deliverables/             Final report PDF and source ZIP
+report/                   Editable report source and PDF/DOCX build scripts
+deliverables/             Final PDF, editable DOCX, and source ZIP
 ```
 
 The stable public API is:
@@ -121,6 +121,7 @@ Official references:
 ## Report and source package
 
 - `deliverables/CSE513_Assignment1_Report.pdf`
+- `deliverables/CSE513_Assignment1_Report.docx` (editable copy; submit the PDF)
 - `deliverables/cpu-scheduling-simulator-source.zip`
 - `report/report_source.md` (editable report content)
 

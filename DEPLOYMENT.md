@@ -5,7 +5,7 @@
 - **Git remote:** `https://github.com/MesutHakanTaskiner/GTU-OS-Project.git`
 - **Expected branch:** `main`
 - **GitHub push:** completed successfully; local `main` tracks `origin/main`
-- **Anonymous repository check:** returned HTTP 404, so the repository is not publicly readable at verification time
+- **Anonymous repository check:** passed on 25 October 2026 (`HTTP 200`)
 - **Entrypoint:** `app.py`
 - **Runtime dependency file:** `requirements.txt`
 - **Verified Python:** 3.11.0
@@ -28,7 +28,7 @@ The project needs no secrets, database, external API, or Debian package. The dep
 
 ```text
 python -m pytest -q
-61 passed in 1.36s
+61 passed in 1.40s
 
 streamlit run app.py --server.headless true --server.port 8501
 GET /_stcore/health -> HTTP 200, ok
@@ -37,6 +37,7 @@ GET / -> HTTP 200
 
 ## Public verification checklist
 
+- [x] GitHub repository is publicly readable (`HTTP 200`)
 - [x] Public URL responds without credentials (`HTTP 200`)
 - [ ] App wakes successfully after an idle/sleep state
 - [ ] Workload A / FCFS outputs match expected values
